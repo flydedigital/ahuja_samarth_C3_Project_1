@@ -15,7 +15,7 @@ class RestaurantTest {
     List<Item> spoof = new ArrayList<Item>();
 
     public void restaurantCreation(){
-        LocalTime openingTime = LocalTime.parse("10:30:00");
+        LocalTime openingTime = LocalTime.parse("01:03:00");
         LocalTime closingTime = LocalTime.parse("22:00:00");
         restaurant = new Restaurant("Amelie's cafe","Chennai",openingTime,closingTime);
         restaurant.addToMenu("Sweet corn soup",119);
